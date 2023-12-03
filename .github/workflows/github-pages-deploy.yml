@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: "./examples/web_voice_chat/web_voice_chat_app/dist" # Here the path to the folder where package-lock.json is located.
+        working-directory: "examples/web_voice_chat/web_voice_chat_app/" # Here the path to the folder where package-lock.json is located.
     steps:
       - name: Checkout
         uses: actions/checkout@v4
