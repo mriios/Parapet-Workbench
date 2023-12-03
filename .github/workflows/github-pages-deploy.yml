@@ -38,7 +38,7 @@ jobs:
         with:
           node-version: 18
           cache: "npm"
-          cache-dependency-path: ./examples/web_voice_chat/web_voice_chat_app/dist
+          cache-dependency-path: ./examples/web_voice_chat/web_voice_chat_app/package-lock.json
       - name: Install dependencies
         run: npm install
       - name: Build
