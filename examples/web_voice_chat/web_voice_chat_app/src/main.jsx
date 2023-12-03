@@ -6,7 +6,7 @@ import BrowserRouter from "react-router-dom/BrowserRouter";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={"https://mriios.github.io/Parapet-Workbench/"}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
